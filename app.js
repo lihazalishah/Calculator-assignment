@@ -13,7 +13,8 @@ var result=document.getElementById("input")
 // square methode
 function square(){    
     var result=document.getElementById("input")
-        result.value= result.value *result.value;
+       result.value= result.value *result.value;
+       return result.value;
     
     }
 // cube methode
